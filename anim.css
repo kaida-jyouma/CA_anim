@@ -1,0 +1,39 @@
+html{
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+#if-1{
+    text-align: center;
+    width: 432px;
+    height: 288px;
+}
+#title-1{
+    color: inherit;
+    font-family: Monospace;
+    font-weight: 200;
+    font-size: 30px;
+}
+.control{
+    width: 50px;
+    height: 30px;
+}
+#filecount{
+    width: 165px;
+    border-width: 0px;
+    height: 18px;
+}
+#file-setting{
+    text-align: center;
+}
+#numwin{
+    color: inherit;
+    margin-bottom: 5px;
+    font-family: Monospace;
+    font-size: 20px;
+}
+#spdwin{
+    margin-top: 5px;
+    font-family: Monospace;
+    font-size: 20px;
+}

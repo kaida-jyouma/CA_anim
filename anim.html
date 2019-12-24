@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+    <script src="anim.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="anim.css" type="text/css" media="all">
+</head>
+<body>
+    <h1 id="title-1">Animation</h1>
+    <iframe id="if-1" src="./imginit.png" frameborder="0"></iframe>
+    <br>
+    <input type="button" class="control" name="tostart" id="tostart" value="<<" onclick="tostart()">
+    <input type="button" class="control" name="back" id="back" value="<" onclick="back()">
+    <input type="button" class="control" name="decreace" id="decreace" value="-" onclick="decrease()">
+    <input type="button" class="control" name="pause" id="pause" value="||" onclick="pause()">
+    <input type="button" class="control" name="begin" id="begin" value="▶" onclick="begin()">
+    <input type="button" class="control" name="increace" id="increace" value="+" onclick="increase()">
+    <input type="button" class="control" name="forward" id="forward" value=">" onclick="forward()">
+    <input type="button" class="control" name="toend" id="toend" value=">>" onclick="toend()">
+    <div id="file-setting">
+        <input type="number" name="filecount" id="filecount" placeholder="Enter_filecount...(0~???)">
+        <input type="button" name="setfile" id="setfile" value="set" onclick="fileset()">
+        <input type="button" name="re-setfile" id="re-setfile" value="re-set" onclick="re_set()">
+        <!--<br>-->
+        <!--<input type="file" name="select-file" id="select-file" value="Select_File..." onchange="fileset_files()">-->
+        <br>
+        <p id="numwin">File:&#32;<span id="nowfile">000</span>&#32;/&#32;<span id="maxfile">000</span></p>
+        <p id="spdwin">Fast:&#32;<span id="nowfast">1000</span>ms&#32;/&#32;img</p>
+    </div>
+    
+</body>
+</html>
